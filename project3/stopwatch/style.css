@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.display {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#stop {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+#reset {
+    background-color: #cccccc; /* Gray */
+}
+
+#lap {
+    background-color: #3498db; /* Blue */
+    color: white;
+}
+
+.controls button:hover {
+    opacity: 0.8;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#laps li {
+    margin-bottom: 5px;
+}
